@@ -1,0 +1,42 @@
+# Node/Vite
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Coverage & cache
+coverage/
+.cache/
+
+# Docker
+docker-compose.override.yml
+
+# Roo internal
+.roo/
+
+# Misc
+.sass-cache/
+*.tgz
+
+# local overrides
+/local-settings.json
